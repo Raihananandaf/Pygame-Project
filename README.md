@@ -69,7 +69,11 @@ Warrior-Legacy/
 2. Install dependensi:
    ```bash
    pip install pygame pillow
+   pip intall pygame
+   pip install mixer
+   
 3. Jalankan game:
+   ```bash
    python main.py
 
 🧑‍💻 Pengembang
