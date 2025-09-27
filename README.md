@@ -38,22 +38,28 @@ Game ini menghadirkan dua karakter utama, **Mystic Warrior** dan **Dark Sorcerer
 
 Warrior-Legacy/
 │
-├── asset/ # Sprite, background, musik, font, icon, button
-│ ├── animation/ # Sprite sheet karakter
-│ ├── background/ # Background statis & GIF arena
-│ ├── music/ # Musik & efek suara
-│ ├── font/ # Font untuk UI
-│ ├── Button/ # Gambar tombol menu
-│ └── icon/ # Icon game
+├── asset/                     # Semua aset game
+│   ├── animation/             # Sprite sheet karakter
+│   ├── background/            # Background statis & GIF arena
+│   ├── music/                 # Musik & efek suara
+│   ├── font/                  # Font untuk UI
+│   ├── button/                # Gambar tombol menu
+│   └── icon/                  # Icon game
 │
-├── frames/ # Frame hasil ekstrak dari GIF arena
+├── frames/                    # Frame hasil ekstrak dari GIF arena
 │
-├── main.py # File utama game
-├── fighter.py # Class karakter & logika pertarungan
-├── main_menu.py # Menu utama
-├── credit_screen.py # Layar kontrol (how to play)
-├── gif.py # Script ekstrak GIF ke frame
-└── README.md # Dokumentasi proyek
+├── src/                       # Source code (opsional, biar lebih modular)
+│   ├── main.py                # File utama game
+│   ├── fighter.py             # Class karakter & logika pertarungan
+│   ├── main_menu.py           # Menu utama
+│   ├── credit_screen.py       # Layar kontrol (how to play / credit)
+│   └── gif.py                 # Script ekstrak GIF ke frame
+│
+├── docs/                      # Dokumentasi tambahan (gambar, flowchart, dll)
+│
+├── requirements.txt           # Daftar library (pygame, pillow, dll)
+├── LICENSE                    # Lisensi (misal MIT/GPL)
+└── README.md                  # Dokumentasi utama
 
 ---
 
